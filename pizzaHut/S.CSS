@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ccc;
+  color: #333;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+header .topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .topnav img {
+  height: 50px;
+}
+
+header .topnav h1 {
+  font-size: 18px;
+  color: black;
+  margin: 0;
+}
+
+header .nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+header .nav li {
+  margin: 0 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+header .nav .orange {
+  color: #f9a825;
+  font-weight: 800;
+}
+
+header .nav .big.red {
+  background: #d62300;
+  color: white;
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+/* ---------- MAIN ---------- */
+/* .body .top {
+  position: relative;
+  text-align: center;
+} */
+
+.body .top .backgd {
+  width: 100%;
+}
+
+.body .top ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: -3px 0;
+  padding: 0;
+  background-color: white;
+}
+
+.body .top ul li {
+  margin: 0 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.body .top ul li:hover {
+  color: #d62300;
+  font-weight: 700;
+}
+
+.body .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.body .bottom .pizza {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.body .bottom .pizza img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.body .bottom .pizza h2 {
+  margin: 10px 0;
+}
+
+.body .bottom .pizza p {
+  color: #d62300;
+  font-weight: 700;
+}
+
+.body .bottom .pizza .btn {
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.body .bottom .pizza .btn.gray {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.body .bottom .pizza .btn.red {
+  background: #d62300;
+  color: white;
+}
